@@ -78,6 +78,6 @@ def numCells(grid):
                         dominant += 1
                         dominants.append((n, m))
 
-    print dominants
+    print(dominants)
     return dominant
 print(numCells(grid))
